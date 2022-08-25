@@ -4,8 +4,8 @@ const { interface, bytecode } = require('./compile')
 
 
 const provider = new HDWalletProvider(
-    'swamp under warfare adapt chat near dust reveal meadow pledge grass donate',
-    'https://rinkeby.infura.io/v3/4a1cea10a92b4ff18630775de17d621a'
+    'mnemonicPhrase',
+    'providerOrUrl'
 )
 
 const web3 = new Web3(provider);
